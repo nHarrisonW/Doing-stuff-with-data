@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Do stuff with data!</title>
+  <!-- Upgrading links to Bootstrap 5.2.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid main-gradient">
+    <div class="container">
+      <h1>Let's Do Stuff with Data!</h1>
+
+      <label for="sort-dropdown">Sort by:</label>
+      <select id="sort-dropdown">
+        <option value="age">Age</option>
+        <option value="height">Height</option>
+        <option value="email">Email</option>
+        <option value="lastname">Last name</option>
+        <option value="firstname">First Name</option>
+      </select>
+      <button id="reverse-button">Reverse List</button>
+
+
+      <!-- Limit dropdown -->
+      <label for="limit-dropdown">Display:</label>
+      <select id="limit-dropdown">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+      </select>
+
+      <!-- Display button -->
+      <!-- <button id="display-button">Display</button> -->
+
+
+      <div id="table-container"></div>
+
+    </div>
+
+  </div>
+  <script src="./scripts/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.main-gradient {
+    background: linear-gradient(135deg, hsla(192, 95%, 50%, 1) 0%, hsla(225, 89%, 47%, 1) 100%);
+    height: 100%;
+    color: white;
+    padding: 100px;
+    font-family: 'Merriweather', serif;
+}
+html {
+    background-color: rgb(58, 58, 58);
+
+}
+#table-container {
+    background: linear-gradient( hsla(202, 71%, 27%, 1) 0%, hsla(216, 69%, 32%, 1) 100%);
+
+    padding: 10px;
+    margin: 10px;
+    
+}
+td, th {
+    padding: 20px 0 20px 100px;
+}
